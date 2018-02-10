@@ -2,3 +2,26 @@
     margin-right: 20px;
     margin-left: 20px;
 }
+
+.photo {
+    border-radius: 50%;
+    width: 330px;
+    height: 330px;
+    background-color: white;
+}
+.fontTitle {
+    font-size: 2em;
+    text-align: center;
+}
+.section1 {
+    padding-top: 20px;
+}
+.hrefIcon {
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+}
+.fontSize {
+    font-size: 1em;
+    text-align: center;
+}
