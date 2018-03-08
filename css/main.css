@@ -29,12 +29,12 @@
 
 /*-------------sección inicio---------------*/
 .bg-imageIn {
-    background-image: url('../assets/images/fondo1.jpg');
+    background-image: url('../assets/images/fondo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 100vh;
-    opacity: 0.5;
+   
     
   }
   .containerPhrase {
@@ -58,19 +58,13 @@
       height: 35vh;
       position: absolute;
       margin-top: 15%;
-    background-color: rgb(12, 12, 12);
   }
 
   .bg-imageAm {
       height: 90vh;
-      background-image: url('../assets/images/pasteles11.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center bottom;
+      background-color: #F2EFC7;
       position: relative;
-      opacity: 0.8;
-      filter: alpha(opacity=50);
-      /*filter:brightness(0.7);*/
+      
   }
   .zIndex {
       z-index: -200;
@@ -83,9 +77,21 @@
 
   .bg-contact {
       height: 90vh;
+      background-color: #FFEEE2;
   }
   .btnCV {
       color: #0a0a0a;
       border-radius: 10px;
       font-weight: bold;
+  }
+  .bg-proyects {
+      background-color: #D2BBA0;
+  }
+  .button {
+      border-radius: 20px;
+  }
+  .hover-nav:hover {
+    color: rgb(202, 81, 202);
+ 
+        
   }
