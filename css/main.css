@@ -91,7 +91,17 @@
       border-radius: 20px;
   }
   .hover-nav:hover {
-    color: rgb(202, 81, 202);
- 
-        
+    color: rgb(202, 81, 202);    
+  }
+  .text-align {
+      text-align: center;
+      /*outline: 1px solid black;*/
+      margin-top: 0px;
+  }
+  .cont-textalign {
+      padding-top: 1%;
+  }
+  .footer {
+      height: 9vh;
+      background-color: #0a0a0a;
   }
