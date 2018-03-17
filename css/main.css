@@ -87,6 +87,10 @@
   .bg-proyects {
       background-color: #D2BBA0;
   }
+  #portfolio {
+      height: 90vh;
+  }
+
   .button {
       border-radius: 20px;
   }
