@@ -22,7 +22,8 @@
 .fontSize {
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
     color: black;
     z-index: 200;
 }
@@ -44,7 +45,7 @@
     
   }
   .containerPhrase p {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Poiret One', cursive;
     font-size: 2.5rem;
     text-align: center;
     color: white;
@@ -62,7 +63,7 @@
 
   .bg-imageAm {
       height: 90vh;
-      background-color: #F2EFC7;
+      background-color: #FED7ED;
       position: relative;
       
   }
@@ -75,9 +76,20 @@
       padding: 8px;
   }
 
+  .pins {
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+  }
+
+  .font-recon {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+  }
+
   .bg-contact {
       height: 90vh;
-      background-color: #FFEEE2;
+      background-color: #A380B5;
   }
   .btnCV {
       color: #0a0a0a;
@@ -85,7 +97,7 @@
       font-weight: bold;
   }
   .bg-proyects {
-      background-color: #D2BBA0;
+      background-color: #CCADDC;
   }
   #portfolio {
       height: 90vh;
