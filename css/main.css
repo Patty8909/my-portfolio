@@ -63,7 +63,7 @@
 
   .bg-imageAm {
       height: 90vh;
-      background-color: #FED7ED;
+      background-color: white;
       position: relative;
       
   }
@@ -89,7 +89,7 @@
 
   .bg-contact {
       height: 90vh;
-      background-color: #A380B5;
+      background-color: white;
   }
   .btnCV {
       color: #0a0a0a;
@@ -97,7 +97,7 @@
       font-weight: bold;
   }
   .bg-proyects {
-      background-color: #CCADDC;
+      background-color: white;
   }
   #portfolio {
       height: 90vh;
@@ -120,4 +120,20 @@
   .footer {
       height: 9vh;
       background-color: #0a0a0a;
+  }
+  @media (max-width:1024px) {
+      .subContainerPhrase {
+          display: none;
+      }
+      .pins {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    #conoce {
+        display: none;
+    }
+    .font-recon {
+        text-align: center;
+    }
   }
