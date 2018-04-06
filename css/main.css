@@ -1,8 +1,10 @@
-.spaceCard {
-    margin-right: 20px;
-    margin-left: 20px;
-}
 
+.patricia span{
+    font-size: 5rem !important;
+}
+.logo-size {
+    width: 65px;
+}
 .photo {
     width: 330px;
     height: 330px;
@@ -10,6 +12,18 @@
 .fontTitle {
     font-size: 2em;
     text-align: center;
+}
+.font-subtitle {
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+hr {
+    width: 60px;
+    border: rgb(202, 81, 202) 4px solid;
+}
+.text-lila {
+    color: rgb(202, 81, 202);
 }
 .section1 {
     padding-top: 0px;
@@ -22,22 +36,20 @@
 .fontSize {
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: bolder;
     color: black;
     z-index: 200;
 }
 
 /*-------------sección inicio---------------*/
 .bg-imageIn {
-    background-image: url('../assets/images/bg.webp');
+    background-image: url('../assets/images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 100vh;
   }
   .containerPhrase {
-    width: 100%;
+    width: 80%;
     /*height: 100vh;*/
     justify-content: center;
     z-index: 100;
@@ -45,24 +57,25 @@
     
   }
   .containerPhrase p {
-    font-family: 'Poiret One', cursive;
-    font-size: 2.5rem;
-    text-align: center;
-    color: white;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-top: 0;
   }
   .subContainerPhrase {
       height: 35vh;
       position: absolute;
-      margin-top: 25%;
+      margin-top: 15vh;
   }
-  .subContainerPhrase p {
+  .subContainerPhrase .phrase {
       color: black;
+      background-color: rgba(255,255,255, 0.5);
+  }
+  .subContainerPhrase .author {
+    font-size: 2.5rem;
   }
 
   .bg-imageAm {
-      height: 90vh;
       background-color: white;
       position: relative;
       
@@ -88,7 +101,6 @@
   }
 
   .bg-contact {
-      height: 90vh;
       background-color: white;
   }
   .btnCV {
@@ -99,8 +111,8 @@
   .bg-proyects {
       background-color: white;
   }
-  #portfolio {
-      height: 90vh;
+  .text-darken-4 {
+      font-weight: bolder;
   }
 
   .button {
@@ -122,9 +134,9 @@
       background-color: #0a0a0a;
   }
   @media (max-width:1024px) {
-      .subContainerPhrase {
-          display: none;
-      }
+    .logo-size {
+        width: 57px;
+    }
       .pins {
         height: 70px;
         width: 70px;
@@ -135,5 +147,8 @@
     }
     .font-recon {
         text-align: center;
+    }
+    .phrase-mobile {
+        font-size: 0.5rem;
     }
   }

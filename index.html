@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|PT+Mono" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:400,700" rel="stylesheet">
     <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
@@ -19,17 +19,17 @@
   <header class="navbar-fixed">
   <nav>
     <div class="nav-wrapper grey darken-4">
-      <a href="#!" class="brand-logo">Patricia</a>
+      <a href="#!" class="brand-logo"><img class="logo-size" src="assets/images/logo.png" alt="logo"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#home" class="hover-nav">INICIO</a></li>
-        <li><a href="#clients" class="hover-nav">ACERCA DE MI</a></li>
+        <li><a href="#clients" class="hover-nav">ACERCA DE MÍ</a></li>
         <li><a href="#portfolio" class="hover-nav">PORTAFOLIO</a></li>
         <li><a href="#contactMe" class="hover-nav">CONTACTO</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="#home" class="hover-nav">INICIO</a></li>
-        <li><a href="#clients" class="hover-nav">ACERCA DE MI</a></li>
+        <li><a href="#clients" class="hover-nav">ACERCA DE MÍ</a></li>
         <li><a href="#portfolio" class="hover-nav">PORTAFOLIO</a></li>
         <li><a href="#contactMe" class="hover-nav">CONTACTO</a></li>
       </ul>
@@ -39,12 +39,17 @@
  <!--             inicio          -->
 <section id="home" class="bg-imageIn responsive-img">
   <div class="containerPhrase">
-    <div class="subContainerPhrase">
-    <p>"Nuestra recompensa se encuentra en el esfuerzo y no en el resultado. Un esfuerzo total es una victoria completa."</p>
-    <p>Mahatma Gandhi</p>
+    <div class="row">
+        <div class="subContainerPhrase phrase-mobile col m6 offset-m6 patricia">
+          <p class="phrase center-align">
+            <span class="author text-lila">Patricia Urco</span>
+            <br>
+            Front-end developer
+          </p>     
+        </div>
+    </div>
+    
   </div>
-  </div>
-
 </section>
 
   <!--             sobre mí          -->
@@ -54,7 +59,8 @@
     <div class="section1 row zIndex">
         
       <div class="col m12 s12">
-          <p class="fontTitle styleAM">Acerca de mí</p>
+        <h2 class="fontTitle font-subtitle">Acerca de mí</h2>
+        <hr>
         <p class="fontSize">
           Hola, me llamo Patricia y soy Front-end developer. Me considero una persona perseverante, responsable y con entusiasmo por adquirir nuevos conocimientos; por lo que me adapto al cambio perfectamente.
           Creo que con perseverancia se pueden lograr las metas, que el trabajo en equipo es fundamental en cualquier ámbito y que el aprendizaje constante debe parte de la vida de toda persona.          
@@ -78,92 +84,103 @@
     <div class="row" id="conoce">
       <a href="#portfolio" class="waves-effect waves-light btn-large col m2 offset-m5 s8 offset-s2 purple darken-1 button">Conoce mis proyectos</a>
     </div>
+    <!--
+      <div class="subContainerPhrase phrase-mobile">
+          <p class="phrase center-align"><span class="text-lila">"</span>Nuestra recompensa se encuentra en el esfuerzo y no en el resultado. Un esfuerzo total es una victoria completa.<span class="text-lila">"</span>
+            <br>
+            <span class="author">Mahatma Gandhi</span>
+          </p>     
+        </div>
+      -->
     
   </section>
-  <!--             proyectos         -->
-  <div id="portfolio" class="bg-proyects">
-    <div class="container">
-    <div class="row">
-      
+  <section>
+    <!--             proyectos         -->
+    <div id="portfolio" class="bg-proyects">
+      <div class="container">
+      <div class="row">
+        
+      </div>
     </div>
-  </div>
     <div class="">
-    <div class="row">
-        <p class="col m12 s12 fontTitle">Mis proyectos</p>
-      <div class="card col m3 s10 offset-s1 offset-m1 spaceCard center-align">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/images/car.png">
+      <div class="row">
+        <h2 class="font-subtitle center-align">Mis proyectos</h2>
+        <hr>
+        <div class="card col m4 center-align">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/labcar.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">LabCar <i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/Patty8909/lab-car-boilerplate" target="_blank" class="text-lila">Github</a></p>
+            <p><a href="https://patty8909.github.io/lab-car-boilerplate/" target="_blank" class="text-lila">Ver el proyecto</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">LabCar<i class="material-icons right">close</i></span>
+            <p>Lab car es una página web responsive que contiene modals y un mapa de google para indicar una ubicación específica. </p>
+          </div>
         </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Lab - ar <i class="material-icons right">more_vert</i></span>
-          <p><a href="https://github.com/Patty8909/lab-car-boilerplate" target="_blank">Github</a></p>
-          <p><a href="https://patty8909.github.io/lab-car-boilerplate/" target="_blank">Ver el proyecto</a></p>
+        <div class="card col m4 center-align">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/bitacora.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4 proyect-title">Flash Bitácora<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/Patty8909/flash-bitacora" target="_blank" class="text-lila">Github</a></p>
+            <p><a href="https://patty8909.github.io/flash-bitacora/public/" target="_blank" class="text-lila">Ver el proyecto</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Flash Bitácora<i class="material-icons right">close</i></span>
+            <p>El presente proyecto es una bitácora con la que se puede agregar mensajes, imágenes, video, ubicaciones y fechas.</p>
+          </div>
         </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Lab - ar<i class="material-icons right">close</i></span>
-          <p>Lab car es una página web responsive que contiene modals y un mapa de google para indicar una ubicación específica. </p>
-        </div>
-      </div>
-      <div class="card col m3 s10 offset-s1 spaceCard center-align">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/images/twi.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Twitter<i class="material-icons right">more_vert</i></span>
-          <p><a href="https://github.com/Patty8909/twitter" target="_blank">Github</a></p>
-          <p><a href="https://patty8909.github.io/twitter/" target="_blank">Ver el proyecto</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Twitter<i class="material-icons right">close</i></span>
-          <p>Twitter es una aplicación web que replica el newsfeed de twitter, especificamente, añade la funcionalidad de twitear.</p>
-        </div>
-      </div>
-      <div class="card col m3 s10 offset-s1 spaceCard center-align">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/images/app.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">NY-times<i class="material-icons right">more_vert</i></span>
-          <p><a href="https://github.com/Patty8909/ny-times" target="_blank">Github</a></p>
-          <p><a href="https://patty8909.github.io/ny-times/public/" target="_blank">Ver el proyecto</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">NY-times<i class="material-icons right">close</i></span>
-          <p>Es una aplicación en la que se puede buscar artículos recientes de casi todos los temas, políticos, geográficos, entre otros.</p>
+        <div class="card col m4 center-align">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/app.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">NY-times<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/Patty8909/ny-times" target="_blank" class="text-lila">Github</a></p>
+            <p><a href="https://patty8909.github.io/ny-times/public/" target="_blank" class="text-lila">Ver el proyecto</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">NY-times<i class="material-icons right">close</i></span>
+            <p>Es una aplicación en la que se puede buscar artículos recientes de casi todos los temas, políticos, geográficos, entre otros.</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
+    </div>
+</section>
     
-              <section id="contactMe" class="bg-contact">
-                <div class="row">
-                  <h2 class="col m2 offset-m5 fontTitle black-text s12">Contáctame</h2>
-                </div>
-                  <br>
-                <div class="pharag row">
-                      <a href="https://github.com/Patty8909" target="_blank" class="hrefIcon col m3 offset-m3 black-text s3 offset-s3"><span class="icon icon-github iconsStyle"></span></a> 
-                      <a href="https://www.linkedin.com/in/patricia-urco/" target="_blank" class="hrefIcon col m3 black-text s3"><span class="icon icon-linkedin2 iconsStyle"></span></a> 
-                </div>
-                <br>
-                <div class="pharag row"> 
-                  <div class="col m2 offset-m5 s6 offset-s3">     
-                  <div  class= "text-align"><a href="#" target="_blank" class="hrefIcon black-text"><span class="icon icon-mail4 iconsStyle"></span></a></div>
-                  <p class= "text-align center-align">pattyu805@gmail.com</p>
-                  </div>
-                </div>
-               
-                <div class="row">
-                  <a href="assets/images/cv-patricia-urco.pdf" target="_blank" class="waves-effect waves-light btn-large col s6 offset-s3 m2 offset-m5 purple darken-1 button">descarga mi cv</a>
-                </div>
-              </section>
-              <!--<footer class="footer">
-                <div class="footer-copyright ">
-                  <div class="container text-align white-text cont-textalign">
-                  Realizado por © Patricia Urco 2018
-                  </div>
-                </div>
-              </footer>-->
+<section id="contactMe" class="bg-contact">
+  <div class="row">
+    <h2 class="font-subtitle center-align">Contáctame</h2>
+    <hr>
+  </div>
+  <div class="pharag row">
+        <a href="https://github.com/Patty8909" target="_blank" class="hrefIcon col m3 offset-m3 black-text s3 offset-s3"><span class="icon icon-github iconsStyle"></span></a> 
+        <a href="https://www.linkedin.com/in/patricia-urco/" target="_blank" class="hrefIcon col m3 black-text s3"><span class="icon icon-linkedin2 iconsStyle"></span></a> 
+  </div>
+  <br>
+  <div class="pharag row"> 
+    <div class="col m2 offset-m5 s6 offset-s3">     
+    <div  class= "text-align"><a href="#" target="_blank" class="hrefIcon black-text"><span class="icon icon-mail4 iconsStyle"></span></a></div>
+    <p class= "text-align center-align">pattyu805@gmail.com</p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <a href="assets/images/cv-patricia-urco.pdf" target="_blank" class="waves-effect waves-light btn-large col s6 offset-s3 m2 offset-m5 purple darken-1 button">descarga mi cv</a>
+  </div>
+</section>
+<!--<footer class="footer">
+  <div class="footer-copyright ">
+    <div class="container text-align white-text cont-textalign">
+    Realizado por © Patricia Urco 2018
+    </div>
+  </div>
+</footer>-->
 
   <script src="vendors/jquery/jquery.min.js"></script>
   <script src="vendors/materialize/js/materialize.min.js"></script>
