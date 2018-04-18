@@ -104,6 +104,9 @@ hr {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.3rem;  
   }
+  .font-titillium {
+    font-family: 'Titillium Web', sans-serif; 
+  }
 
   .bg-contact {
       background-color: white;
@@ -137,6 +140,14 @@ hr {
   .footer {
       height: 9vh;
       background-color: #0a0a0a;
+  }
+  .icons-tec {
+      height: 40px;
+  }
+  .button-proyects {
+      padding: 5px 10px;
+      border-radius: 7px;
+      margin: 10px 10px;
   }
   @media (max-width:1024px) {
     .logo-size {
