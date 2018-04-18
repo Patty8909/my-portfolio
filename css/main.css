@@ -34,6 +34,7 @@ hr {
     color: #ffffff;
 }
 .fontSize {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     color: black;
@@ -96,8 +97,12 @@ hr {
   }
 
   .font-recon {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Amaranth', sans-serif;
     font-weight: bold;
+  }
+  .font-pins {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3rem;  
   }
 
   .bg-contact {
@@ -151,4 +156,9 @@ hr {
     .phrase-mobile {
         font-size: 0.5rem;
     }
+    .hide-pins-mobile {
+        display: none;
+    }
   }
+
+ 
